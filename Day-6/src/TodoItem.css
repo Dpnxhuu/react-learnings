@@ -1,0 +1,8 @@
+.todo-item {
+  background: #f7fafc;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  color: #4a5568;
+  font-size: 15px;
+}

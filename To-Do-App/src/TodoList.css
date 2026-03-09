@@ -1,0 +1,23 @@
+.todo-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.empty {
+  text-align: center;
+  padding: 40px 0;
+  color: #9ca3af;
+}
+
+.empty span {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.empty p {
+  font-size: 14px;
+}
