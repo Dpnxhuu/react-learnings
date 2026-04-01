@@ -16,21 +16,14 @@ function App() {
     return () => {
       clearInterval(intervalId);
     };
-  });
+  },[isRunning]);
 
   return (
     <>
       <h1>Stopwatch: {count}</h1>
       <button onClick={() => setIsRunning(true)}>Start</button>
       <button onClick={() => setIsRunning(false)}>Stop</button>
-      <button
-        onClick={() => {
-          setIsRunning(false);
-          setCount(0);
-        }}
-      >
-        Reset
-      </button>
+      <button onClick={() => {setIsRunning(false);setCount(0);}}>Reset</button>
     </>
   );
 }
